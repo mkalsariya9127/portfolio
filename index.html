@@ -1,0 +1,1249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+
+        <div class="container-fluid">
+
+            <!-- Logo -->
+            <a class="navbar-brand fw-bold" href="#home">
+                MILAN<span class="text-warning">.dev</span>
+            </a>
+
+
+            <!-- Mobile Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+
+            <!-- Navbar Menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <!-- Home -->
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">
+                            Home
+                        </a>
+                    </li>
+
+
+                    <!-- About -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            About
+                        </a>
+                    </li>
+
+
+                    <!-- Skills -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">
+                            Skills
+                        </a>
+                    </li>
+
+
+                    <!-- Projects Dropdown -->
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="#projects" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+
+                            Projects
+
+                        </a>
+
+
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a class="dropdown-item" href="#html-projects">
+                                    HTML
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#css-projects">
+                                    CSS
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#js-projects">
+                                    JavaScript
+                                </a>
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#projects">
+                                    All Projects
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <!-- Contact -->
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="#contact">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--HOME / HERO SECTION -->
+
+    <section class="bg-dark text-white min-vh-100 d-flex align-items-center">
+
+        <div class="container px-4">
+
+            <div class="row align-items-center gy-5">
+
+                <!-- LEFT SIDE -->
+                <div class="col-lg-7 text-center text-lg-start">
+
+                    <p class="text-warning fw-bold fs-5 mb-2">
+                        Hello, I'm
+                    </p>
+
+                    <h1 class="display-3 fw-bold">
+                        Milan <span class="text-warning">Kalsariya</span>
+                    </h1>
+
+                    <h4 class="fs-3 mt-3">
+                        I'm a <span class="text-warning">Full Stack Developer</span>
+                    </h4>
+
+                    <p class="lead text-secondary mt-4">
+                        I build responsive and user-friendly websites and
+                        <br class="d-none d-md-block">
+                        web applications that help businesses grow.
+                    </p>
+
+
+                    <!-- BUTTONS -->
+                    <div class="mt-4 d-flex gap-3 justify-content-center justify-content-lg-start">
+
+                        <a href="./img/Black and White Professional Corporate Resume.png" target="_blank"
+                            class="btn btn-warning btn-lg">
+                            Download CV
+                        </a>
+
+                        <a href="#contact" class="btn btn-outline-warning btn-lg">
+                            Contact Me
+                        </a>
+
+                    </div>
+
+
+                    <!-- SOCIAL ICONS -->
+                    <div class="mt-4 d-flex gap-4 justify-content-center justify-content-lg-start">
+
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/milan-kalsariya-21039231b/" class="text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="bi bi-linkedin" viewBox="0 0 16 16">
+
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                            </svg>
+                        </a>
+
+
+                        <!-- GitHub -->
+                        <a href="https://github.com/mkalsariya9127/" class="text-white">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="bi bi-github" viewBox="0 0 16 16">
+
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                            </svg>
+
+                        </a>
+
+
+                        <!-- Email -->
+                        <a href="mailto:mailkalsariya9127@gmail.com" class="text-white">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="bi bi-envelope-fill" viewBox="0 0 16 16">
+
+                                <path
+                                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+
+                            </svg>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT SIDE IMAGE -->
+                <div class="col-lg-5 text-center">
+
+                    <img src="./img/ChatGPT Image Aug 16, 2026, 01_08_27 PM.png" alt="Milan Kalsariya"
+                        class="img-fluid rounded-circle border border-warning border-5"
+                        style="width: 380px; height: 380px; object-fit: cover;">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT ME -->
+
+    <section id="about" class="py-5 bg-light">
+
+        <div class="container">
+
+            <!-- Section Title -->
+            <div class="text-center mb-5">
+
+                <p class="text-warning fw-bold mb-1">
+                    ABOUT ME
+                </p>
+
+                <h2 class="fw-bold">
+                    Who I Am
+                </h2>
+
+                <p class="text-muted">
+                    Get to know more about me and my skills
+                </p>
+
+            </div>
+
+
+            <div class="row align-items-center">
+
+                <!-- LEFT SIDE -->
+                <div class="col-lg-6">
+
+                    <h3 class="fw-bold mb-3">
+                        I'm Milan Kalsariya
+                    </h3>
+
+                    <h5 class="text-warning mb-3">
+
+                        Full Stack Developer
+                    </h5>
+
+                    <p class="text-muted">
+                        I am a passionate Full Stack Developer who loves
+                        creating modern, responsive and user-friendly
+                        websites and web applications.
+                    </p>
+
+                    <p class="text-muted">
+                        I have knowledge of frontend and backend technologies.
+                        I enjoy learning new technologies and converting
+                        ideas into real-world projects.
+                    </p>
+
+                    <a href="#contact" class="btn btn-warning mt-3">
+                        Contact Me
+                    </a>
+
+                </div>
+
+
+                <!-- RIGHT SIDE -->
+                <div class="col-lg-6 mt-4 mt-lg-0">
+
+                    <div class="card border-0 shadow-sm p-4">
+
+                        <div class="row">
+
+                            <!-- Name -->
+                            <div class="col-md-6 mb-4">
+
+                                <h6 class="fw-bold">
+                                    Name
+                                </h6>
+
+                                <p class="text-muted mb-0">
+                                    Milan Kalsariya
+                                </p>
+
+                            </div>
+
+
+                            <!-- Email -->
+                            <div class="col-md-6 mb-4">
+
+                                <h6 class="fw-bold">
+                                    Email
+                                </h6>
+
+                                <p class="text-muted mb-0">
+                                    milankalsariya9127@gmail.com
+                                </p>
+
+                            </div>
+
+                            <!-- Education -->
+                            <div class="col-md-6 mb-4">
+
+                                <h6 class="fw-bold">
+                                    Education
+                                </h6>
+
+                                <p class="text-muted mb-0">
+                                    Bachelor of Computer Applications<br>
+                                    Full Stack Development
+                                </p>
+
+                            </div>
+                            <!-- Phone -->
+                            <div class="col-md-6 mb-4">
+
+                                <h6 class="fw-bold">
+                                    Phone
+                                </h6>
+
+                                <p class="text-muted mb-0">
+                                    +91 6354442139
+                                </p>
+
+                            </div>
+                            <!-- Location -->
+                            <div class="col-md-6">
+
+                                <h6 class="fw-bold">
+                                    Location
+                                </h6>
+
+                                <p class="text-muted mb-0">
+                                    Ahemdabad,Gujrat
+                                </p>
+
+                            </div>
+                            <!-- Experience -->
+                            <div class="col-md-6">
+
+                                <h6 class="fw-bold">
+                                    Experience
+                                </h6>
+
+                                <p class="text-muted mb-0">
+                                    Student / Fresher
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--  MY SKILLS -->
+
+    <section id="skills" class="py-5 bg-light">
+
+        <div class="container">
+
+            <!-- Section Heading -->
+            <div class="text-center mb-5">
+
+                <p class="text-warning fw-bold mb-2">
+                    MY SKILLS
+                </p>
+
+                <h2 class="fw-bold display-6">
+                    What I Know
+                </h2>
+
+                <p class="text-muted">
+                    Technologies and tools I use to build modern websites
+                </p>
+
+            </div>
+
+
+            <!-- SKILLS -->
+            <div class="row g-4">
+
+
+                <!-- HTML -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card border-0 shadow-sm h-100 p-4">
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <h5 class="fw-bold mb-0">
+                                HTML
+                            </h5>
+
+                            <span class="text-warning fw-bold">
+                                80%
+                            </span>
+
+                        </div>
+
+                        <div class="progress mt-3" style="height: 8px;">
+
+                            <div class="progress-bar bg-warning" style="width: 80%;">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CSS -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card border-0 shadow-sm h-100 p-4">
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <h5 class="fw-bold mb-0">
+                                CSS
+                            </h5>
+
+                            <span class="text-warning fw-bold">
+                                75%
+                            </span>
+
+                        </div>
+
+                        <div class="progress mt-3" style="height: 8px;">
+
+                            <div class="progress-bar bg-warning" style="width: 75%;">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- JavaScript -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card border-0 shadow-sm h-100 p-4">
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <h5 class="fw-bold mb-0">
+                                JavaScript
+                            </h5>
+
+                            <span class="text-warning fw-bold">
+                                65%
+                            </span>
+
+                        </div>
+
+                        <div class="progress mt-3" style="height: 8px;">
+
+                            <div class="progress-bar bg-warning" style="width: 65%;">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Bootstrap -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card border-0 shadow-sm h-100 p-4">
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <h5 class="fw-bold mb-0">
+                                Bootstrap
+                            </h5>
+
+                            <span class="text-warning fw-bold">
+                                85%
+                            </span>
+
+                        </div>
+
+                        <div class="progress mt-3" style="height: 8px;">
+
+                            <div class="progress-bar bg-warning" style="width: 85%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================= PROJECTS SECTION ================= -->
+
+    <section id="projects" class="py-5 bg-light">
+
+        <div class="container">
+
+            <!-- Section Heading -->
+            <div class="text-center mb-5">
+
+                <p class="text-warning fw-bold mb-1">
+                    MY PROJECTS
+                </p>
+
+                <h2 class="fw-bold">
+                    What I Have Built
+                </h2>
+
+                <p class="text-muted">
+                    Here are some of my recent projects.
+                </p>
+
+            </div>
+
+
+            <!-- Project Cards -->
+            <div class="row g-4">
+
+
+                <!-- PROJECT 1 -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card h-100 shadow-sm border-0">
+
+
+                        <img src="https://plus.unsplash.com/premium_photo-1778256014586-f95b885ef9ec?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aW5mb3JtYXRpb24lMjB3ZWJzaXRlfGVufDB8fDB8fHww" class="card-img-top" alt="Student Card Project">
+                        </a>
+
+                        <div class="card-body">
+
+                            <h5 class="card-title fw-bold">
+                                Student Information Card
+                            </h5>
+
+                            <p class="card-text text-muted">
+                                A student information project where users
+                                can enter their details and generate a
+                                student card dynamically.
+                            </p>
+
+                            <!-- Technologies -->
+                            <div class="mb-3">
+
+                                <span class="badge text-bg-warning">
+                                    HTML
+                                </span>
+
+                                <span class="badge text-bg-dark">
+                                    CSS
+                                </span>
+
+                                <span class="badge text-bg-primary">
+                                    JavaScript
+                                </span>
+
+                                <span class="badge text-bg-secondary">
+                                    Bootstrap
+                                </span>
+
+                            </div>
+                            <a href="https://java-csript-project.vercel.app" target="_blank"
+                                class="btn btn-warning">
+                                View Project
+                            </a>
+
+                            <a href="https://github.com/mkalsariya9127/" class="btn btn-outline-dark">
+                                GitHub
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROJECT 2 -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card h-100 shadow-sm border-0">
+
+                        <img src="./img/food ss.png" class="card-img-top" alt="Food Website">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title fw-bold">
+                                Food Website
+                            </h5>
+
+                            <p class="card-text text-muted">
+                                A modern responsive food website with
+                                navigation, menu section, food cards and
+                                responsive design.
+                            </p>
+
+                            <!-- Technologies -->
+                            <div class="mb-3">
+
+                                <span class="badge text-bg-warning">
+                                    HTML
+                                </span>
+
+                                <span class="badge text-bg-dark">
+                                    CSS
+                                </span>
+
+                                <span class="badge text-bg-primary">
+                                    Bootstrap
+                                </span>
+
+                            </div>
+
+                            <a href="http://fofood-project.vercel.app" class="btn btn-warning">
+                                View Project
+                            </a>
+
+                            <a href="https://github.com/mkalsariya9127/" class="btn btn-outline-dark">
+                                GitHub
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROJECT 3 -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card h-100 shadow-sm border-0">
+
+                        <img src="./img/real estate.png" class="card-img-top" alt="E-Commerce Website">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title fw-bold">
+                                Real-Estate
+                            </h5>
+
+                            <p class="card-text text-muted">
+                                A responsive Real Estate website with
+                                Home, categories,
+                                and a modern user interface.
+                            </p>
+
+                            <!-- Technologies -->
+                            <div class="mb-3">
+
+                                <span class="badge text-bg-warning">
+                                    HTML
+                                </span>
+
+                                <span class="badge text-bg-dark">
+                                    CSS
+                                </span>
+
+                                <span class="badge text-bg-primary">
+                                    JavaScript
+                                </span>
+
+                            </div>
+
+                            <a href="http://html-and-css-project-7.vercel.app" class="btn btn-warning">
+                                View Project
+                            </a>
+
+                            <a href="https://github.com/mkalsariya9127/" class="btn btn-outline-dark">
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SERVICES SECTION ================= -->
+
+    <section id="services" class="py-5 bg-light">
+
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="text-center mb-5">
+
+                <p class="text-warning fw-bold mb-2">
+                    MY SERVICES
+                </p>
+
+                <h2 class="fw-bold">
+                    What I Can Do
+                </h2>
+
+                <p class="text-muted">
+                    I provide professional web development and design services.
+                </p>
+
+            </div>
+
+
+            <!-- Services -->
+            <div class="row g-4">
+
+
+                <!-- Web Development -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card h-100 border-0 shadow-sm text-center p-4">
+
+                        <div class="mb-3">
+                            <i class="bi bi-code-slash text-warning" style="font-size: 45px;"></i>
+                        </div>
+
+                        <h4 class="fw-bold">
+                            Web Development
+                        </h4>
+
+                        <p class="text-muted">
+                            I create modern, responsive and user-friendly
+                            websites using modern web technologies.
+                        </p>
+
+                        <a href="#contact" class="btn btn-outline-warning mt-auto">
+                            Learn More
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Web Design -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card h-100 border-0 shadow-sm text-center p-4">
+
+                        <div class="mb-3">
+                            <i class="bi bi-palette text-warning" style="font-size: 45px;"></i>
+                        </div>
+
+                        <h4 class="fw-bold">
+                            Web Design
+                        </h4>
+
+                        <p class="text-muted">
+                            I design clean, modern and attractive interfaces
+                            that provide a great user experience.
+                        </p>
+
+                        <a href="#contact" class="btn btn-outline-warning mt-auto">
+                            Learn More
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Responsive Design -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card h-100 border-0 shadow-sm text-center p-4">
+
+                        <div class="mb-3">
+                            <i class="bi bi-phone text-warning" style="font-size: 45px;"></i>
+                        </div>
+
+                        <h4 class="fw-bold">
+                            Responsive Design
+                        </h4>
+
+                        <p class="text-muted">
+                            I build websites that work smoothly on mobile,
+                            tablet and desktop devices.
+                        </p>
+
+                        <a href="#contact" class="btn btn-outline-warning mt-auto">
+                            Learn More
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- JavaScript -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card h-100 border-0 shadow-sm text-center p-4">
+
+                        <div class="mb-3">
+                            <i class="bi bi-filetype-js text-warning" style="font-size: 45px;"></i>
+                        </div>
+
+                        <h4 class="fw-bold">
+                            JavaScript Development
+                        </h4>
+
+                        <p class="text-muted">
+                            I create interactive and dynamic website features
+                            using JavaScript.
+                        </p>
+
+                        <a href="#contact" class="btn btn-outline-warning mt-auto">
+                            Learn More
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Frontend Development -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card h-100 border-0 shadow-sm text-center p-4">
+
+                        <div class="mb-3">
+                            <i class="bi bi-window-stack text-warning" style="font-size: 45px;"></i>
+                        </div>
+
+                        <h4 class="fw-bold">
+                            Frontend Development
+                        </h4>
+
+                        <p class="text-muted">
+                            I build interactive and responsive frontend
+                            interfaces using modern technologies.
+                        </p>
+
+                        <a href="#contact" class="btn btn-outline-warning mt-auto">
+                            Learn More
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Website Optimization -->
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card h-100 border-0 shadow-sm text-center p-4">
+
+                        <div class="mb-3">
+                            <i class="bi bi-speedometer2 text-warning" style="font-size: 45px;"></i>
+                        </div>
+
+                        <h4 class="fw-bold">
+                            Website Optimization
+                        </h4>
+
+                        <p class="text-muted">
+                            I improve website performance, speed and overall
+                            user experience.
+                        </p>
+
+                        <a href="#contact" class="btn btn-outline-warning mt-auto">
+                            Learn More
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT SECTION ================= -->
+
+    <section id="contact" class="py-5 bg-light">
+
+        <div class="container">
+
+            <!-- Section Heading -->
+            <div class="text-center mb-5">
+
+                <p class="text-warning fw-bold mb-2">
+                    CONTACT ME
+                </p>
+
+                <h2 class="fw-bold">
+                    Get In Touch
+                </h2>
+
+                <p class="text-muted">
+                    Have a project or any question? Feel free to contact me.
+                </p>
+
+            </div>
+
+
+            <div class="row g-5 align-items-center">
+
+
+                <!-- LEFT SIDE -->
+                <div class="col-lg-5">
+
+                    <h3 class="fw-bold mb-3">
+                        Let's Work Together
+                    </h3>
+
+                    <p class="text-muted mb-4">
+                        I'm always interested in new projects and opportunities.
+                        Send me a message and I'll get back to you as soon as possible.
+                    </p>
+
+
+                    <!-- Email -->
+                    <div class="d-flex align-items-center mb-4">
+
+                        <i class="bi bi-envelope-fill text-warning fs-3 me-3"></i>
+
+                        <div>
+                            <h6 class="fw-bold mb-1">
+                                Email
+                            </h6>
+
+                            <p class="text-muted mb-0">
+                                milankalsariya9127@gmail.com
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- Phone -->
+                    <div class="d-flex align-items-center mb-4">
+
+                        <i class="bi bi-telephone-fill text-warning fs-3 me-3"></i>
+
+                        <div>
+                            <h6 class="fw-bold mb-1">
+                                Phone
+                            </h6>
+
+                            <p class="text-muted mb-0">
+                                +91 6354442139
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- Location -->
+                    <div class="d-flex align-items-center">
+
+                        <i class="bi bi-geo-alt-fill text-warning fs-3 me-3"></i>
+
+                        <div>
+                            <h6 class="fw-bold mb-1">
+                                Location
+                            </h6>
+
+                            <p class="text-muted mb-0">
+                                Ahemdabad, Gujarat, India
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT SIDE FORM -->
+                <form id="contact-form">
+
+                    <div class="row">
+
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Your Name</label>
+
+                            <input type="text" class="form-control" name="name" placeholder="Enter your name" required>
+                        </div>
+
+
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Your Email</label>
+
+                            <input type="email" class="form-control" name="email" placeholder="Enter your email"
+                                required>
+                        </div>
+
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label class="form-label">Subject</label>
+
+                        <input type="text" class="form-control" name="subject" placeholder="Enter subject" required>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label class="form-label">Message</label>
+
+                        <textarea class="form-control" name="message" rows="5" placeholder="Write your message..."
+                            required></textarea>
+                    </div>
+
+
+                    <button type="submit" class="btn btn-warning">
+                        <i class="bi bi-send-fill me-2"></i>
+                        Send Message
+                    </button>
+
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="bg-dark text-white pt-5 pb-3">
+
+        <div class="container">
+
+            <div class="row g-4">
+
+
+                <!-- ABOUT -->
+                <div class="col-lg-4 col-md-6">
+
+                    <h3 class="fw-bold">
+                        MILAN<span class="text-warning">.dev</span>
+                    </h3>
+
+                    <p class="text-secondary mt-3">
+                        I'm a passionate Full Stack Developer who loves
+                        creating modern, responsive and user-friendly
+                        websites and web applications.
+                    </p>
+
+                </div>
+
+
+                <!-- QUICK LINKS -->
+                <div class="col-lg-2 col-md-6">
+
+                    <h5 class="fw-bold mb-3">
+                        Quick Links
+                    </h5>
+
+                    <ul class="list-unstyled">
+
+                        <li class="mb-2">
+                            <a href="#home" class="text-secondary text-decoration-none">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="mb-2">
+                            <a href="#about" class="text-secondary text-decoration-none">
+                                About
+                            </a>
+                        </li>
+
+                        <li class="mb-2">
+                            <a href="#skills" class="text-secondary text-decoration-none">
+                                Skills
+                            </a>
+                        </li>
+
+                        <li class="mb-2">
+                            <a href="#projects" class="text-secondary text-decoration-none">
+                                Projects
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="text-secondary text-decoration-none">
+                                Contact
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- SERVICES -->
+                <div class="col-lg-3 col-md-6">
+
+                    <h5 class="fw-bold mb-3">
+                        Services
+                    </h5>
+
+                    <ul class="list-unstyled">
+
+                        <li class="mb-2 text-secondary">
+                            Web Development
+                        </li>
+
+                        <li class="mb-2 text-secondary">
+                            Web Design
+                        </li>
+
+                        <li class="mb-2 text-secondary">
+                            Responsive Design
+                        </li>
+
+                        <li class="mb-2 text-secondary">
+                            Frontend Development
+                        </li>
+
+                        <li class="text-secondary">
+                            Website Optimization
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- SOCIAL -->
+                <div class="col-lg-3 col-md-6">
+
+                    <h5 class="fw-bold mb-3">
+                        Follow Me
+                    </h5>
+
+                    <p class="text-secondary">
+                        Connect with me on social media.
+                    </p>
+
+
+                    <div class="d-flex gap-3">
+
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/milan-kalsariya-21039231b/" class="text-white fs-4">
+
+                            <i class="bi bi-linkedin"></i>
+
+                        </a>
+
+
+                        <!-- GitHub -->
+                        <a href="https://github.com/mkalsariya9127/" class="text-white fs-4">
+
+                            <i class="bi bi-github"></i>
+
+                        </a>
+
+
+
+
+
+                        <!-- Email -->
+                        <a href="mailto:milankalsariya9127@example.com" class="text-white fs-4">
+
+                            <i class="bi bi-envelope-fill"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- LINE -->
+            <hr class="border-secondary my-4">
+
+
+            <!-- COPYRIGHT -->
+            <div class="row align-items-center">
+
+                <div class="col-md-6">
+
+                    <p class="text-secondary mb-0">
+                        © 2026 Milan Kalsariya. All Rights Reserved.
+                    </p>
+
+                </div>
+
+
+                <div class="col-md-6 text-md-end mt-2 mt-md-0">
+
+                    <a href="#home" class="text-warning text-decoration-none">
+
+                        Back to Top
+                        <i class="bi bi-arrow-up"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</body>
+
+</html>
