@@ -1,4 +1,4 @@
-# 💼 Milan Klasariya - Developer Portfolio Website
+# 💼 Milan Kalsariya - Developer Portfolio Website
 
 A modern, responsive personal developer portfolio website crafted to showcase web development projects, technical skills, and educational background. Features an active contact form integrated with EmailJS for direct client communication.
 
@@ -30,4 +30,4 @@ A modern, responsive personal developer portfolio website crafted to showcase we
 ---
 
 ## 👤 Author
-- **Milan Klasariya** - [GitHub Profile](https://github.com/mkalsariya9127)
+- **Milan Kalsariya** - [GitHub Profile](https://github.com/mkalsariya9127)
