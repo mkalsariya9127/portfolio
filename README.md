@@ -4,6 +4,11 @@ A modern, responsive personal developer portfolio website crafted to showcase we
 
 ---
 
+## 🚀 Live Demo & Preview
+👉 **[View Live Portfolio on Vercel](https://portfolio-milan139127.vercel.app)**
+
+---
+
 ## ✨ Features
 - **Hero Section:** Engaging introduction with animated typing effect and quick navigation.
 - **Featured Projects:** Interactive cards showcasing web applications with live demo links and GitHub source code.
@@ -20,7 +25,7 @@ A modern, responsive personal developer portfolio website crafted to showcase we
 
 ---
 
-## 🚀 How to View & Run
+## 🚀 How to View & Run Locally
 1. Clone the repository:
    ```bash
    git clone https://github.com/mkalsariya9127/portfolio.git
